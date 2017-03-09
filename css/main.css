@@ -1,9 +1,55 @@
 body {
+    background-color: #f2f2f2;
+    margin: 0px;
+    padding: 0px;
 }
 
-div{
+.topphoto{
+    background-color: #666;
     background-image: url("../Top.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 130px;
+    /*position: fixed;*/
+}
+
+.name{
+    background-color: #555;
+    font-size: 30px;
+    font-family: Arial,sans-serif;
+    color: #f4f4f4;
+    position: float;
+}
+
+.middlebox{
+    width: 100%;
+    height: 100px; 
+}
+
+.leftbox{
+    width: 12%;
+    height: 720px;
+    float:left;    
+}
+.slingshotP1{
+    background-image: url("../AboutSlingshot.jpg"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 720px;
+    float:left;
+}
+
+.slingshotP2{
+    background-image: url("../SlingshotTop.jpg"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 940px;
+    float:left;
+}
+
+.clear{
+    clear: both;
 }
